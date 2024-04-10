@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Segor UI';
+}
+
+#todolist{
+  display: flex;
+  flex-direction: column;
+  border:1px solid black;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  gap: 20px;
+}
+
+#todolist>div{
+  border:1px solid black;
+  padding: 5px;
+}
+button{
+  padding: 5px 30px;
+  border-radius: 4px;
+  border:none;
+  outline: none;
+  background: #8bc34a;
+}
+.del-button{
+  background-color: #e91e63ba;
+}
+.item{
+  margin-top: 25px;
+  background:#5f585863;
+  padding: 10px 20px;
+  border: 1px solid #e0cdcd;
+  color: black;
+  border-radius: 14px;
+}
+.tools{
+  display:flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.done{
+  text-decoration: line-through;
+  color: black;
+  opacity: 0.4;
+}
+
+#add-to-do{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#add-to-do input{
+  padding-right: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.hide{
+  display: none;
+}
